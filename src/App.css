@@ -1,0 +1,49 @@
+/* reset y generales */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: grid;
+  background-color: rgb(0, 9, 39);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  border: transparent;
+  justify-content: space-around;
+  background-color: rgba(1, 19, 77, 0.185);
+  box-shadow: black 5px;
+}
+
+.navbar ul {
+  display: flex;
+  width: 55vw;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 1rem;
+}
+
+.navbar ul li {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(235, 235, 235);
+}
+
+.cart-logo {
+  align-content: center;
+  color: rgb(235, 235, 235);
+}
+
+.item-list {
+  padding: 3rem;
+  color: rgb(235, 235, 235);
+}
